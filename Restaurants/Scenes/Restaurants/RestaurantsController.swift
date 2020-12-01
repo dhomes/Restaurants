@@ -34,6 +34,7 @@ class RestaurantsController: UITableViewController, StoryboardInstantiable {
         tableView.register(UINib(nibName: RestaurantCell.identifier, bundle: nil),
                        forCellReuseIdentifier: RestaurantCell.identifier)
         tableView.refreshControl = refresh
+        tableView.contentInset = UIEdgeInsets(top: 20, left: 0, bottom: 0, right: 0)
     }
     
     private func setupModel() {

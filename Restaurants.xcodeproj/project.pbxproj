@@ -178,9 +178,9 @@
 			isa = PBXGroup;
 			children = (
 				B903160625758D7300451892 /* Assets.xcassets */,
-				B903160825758D7300451892 /* LaunchScreen.storyboard */,
-				B903160B25758D7300451892 /* Info.plist */,
 				B9F806F72575D09C0096C144 /* Colors.xcassets */,
+				B903160B25758D7300451892 /* Info.plist */,
+				B903160825758D7300451892 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
